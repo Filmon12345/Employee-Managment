@@ -1,0 +1,38 @@
+ .containers {
+  display: flex;
+  align-items: center;
+  min-height: 70px;
+  position: fixed;
+  top: 0;
+  right: 0;
+  left:0;
+ background: #eee;
+  justify-content: space-between;
+  box-shadow: 1px 1px 7px rgb(0, 0, 0, 0.6);
+padding:0 10px 0 10px;
+} 
+.link {
+  font-weight: bold;
+  font-size: 20px;
+  text-decoration-line: none;
+  border: 1px solid black;
+  padding:6px 10px 6px 10px;
+  border-radius: 5px;
+  color: black;
+  font-weight: 400;
+  font-size: 15px;
+ 
+}
+.containers .right{
+  display: flex;
+gap: 10px;
+align-items: center;
+}
+
+
+.containers .left {
+ 
+  font-family: "Courier New", Courier;
+  color: palevioletred;
+
+}

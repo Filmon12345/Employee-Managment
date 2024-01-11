@@ -1,0 +1,70 @@
+{
+    "blogs": [
+      {
+        "id": 1,
+        "title": "HP Pc",
+        "catagory": "Electronics",
+        "body": "Processor Speed. 3.6 GHz ; Graphics. Integrated ; Graphics Card. Intel® UHD Graphics 630 ; Ports. 1 headphone/microphone combo; 2 USB 2.0; 2 USB 3.1 Gen 1. "
+      },
+      {
+        "id": 3,
+        "title": "Iphone 15 pro",
+        "catagory": "Electronics",
+        "body": "iPhone 15 Pro is the first iPhone to feature an aerospacegrade titanium design, using the same alloy that spacecraft use for missions to Mars. Titanium has one of the best strength‑to‑weight ratios of any metal, making these our lightest Pro models ever. You'll notice the difference the moment you pick one up."
+      },
+      {
+        "id": 4,
+        "title": "Toshiba Satellite Pro",
+        "catagory": "Electronics",
+        "body": "Toshiba Satellite Pro A40-CX4100 is a Windows 10 laptop with a 14.00-inch display that has a resolution of 1920x1080 pixels. "
+      },
+      {
+        "id": 5,
+        "title": "Sumsung galaxy s22 ultra",
+        "catagory": "Electronics",
+        "body": "The Samsung Galaxy S22 Ultra is the headliner of the S22 series. It's the first S series phone to include Samsung's S Pen. Specifications are top-notch including 6.8-inch Dynamic AMOLED display with 120Hz refresh rate, Snapdragon 8 Gen 1 processor, 5000mAh battery, up to 12gigs of RAM, and 1TB of storage. "
+      },
+      {
+        "id": 6,
+        "title": "Iphone 15 pro",
+        "catagory": "Electronics",
+        "body": "iPhone 15 Pro is the first iPhone to feature an aerospace‑grade titanium design, using the same alloy that spacecraft use for missions to Mars. Titanium has one of the best strength‑to‑weight ratios of any metal, making these our lightest Pro models ever. You'll notice the difference the moment you pick one up."
+      },
+      {
+        "title": "QuantumX VR Headset",
+        "body": " Immerse yourself in an unparalleled virtual reality experience with the Quantum VR Headset. Featuring advanced quantum computing technology, this sleek and lightweight headset offers crystal-clear visuals, ultra-low latency, and precise motion tracking. With its integrated haptic feedback system, you'll feel every movement and interaction, making your virtual adventures truly lifelike. Get ready to explore new worlds, play immersive games, and watch movies like never before.",
+        "catagory": "Electronics",
+        "id": 7
+      },
+      {
+        "title": "Lumina Smart Home Automation System",
+        "body": "The Lumina Smart Home Automation System is the ultimate solution for transforming your house into a futuristic smart home. With its intuitive control hub and a network of connected devices, you can effortlessly manage and automate various aspects of your home, such as lighting, security, climate control, and entertainment systems. The system is compatible with voice assistants and can be controlled remotely via a smartphone app, giving you complete control and peace of mind wherever you are.",
+        "catagory": "Electronics",
+        "id": 8
+      },
+      {
+        "title": "Solaris Ultra HD Smart TV",
+        "body": " Elevate your home entertainment with the Solaris Ultra HD Smart TV. Featuring a stunning 4K resolution and HDR technology, this sleek television delivers breathtaking visuals with vibrant colors and enhanced contrast. With its built-in smart features, you can access a world of streaming content, browse the internet, and control your connected devices using the intuitive interface. The TV also supports voice commands and comes with multiple HDMI and USB ports for easy connectivity with other devices.",
+        "catagory": "Electronics",
+        "id": 9
+      },
+      {
+        "title": "CookMaster Pro Sous Vide Precision Cooker",
+        "body": " The CookMaster Pro Sous Vide Precision Cooker is a must-have kitchen gadget for culinary enthusiasts. With precise temperature control and water circulation, this device ensures that your food is cooked to perfection every time. Whether you're cooking tender steaks, juicy chicken breasts, or flavorful vegetables, the CookMaster Pro guarantees consistent results with enhanced flavors and textures. Its user-friendly interface and adjustable clamp make it suitable for any home chef looking to elevate their cooking game.",
+        "catagory": "Kitchen Appliances",
+        "id": 10
+      },
+      {
+        "title": "VitalFit Health Tracker Band",
+        "body": "The VitalFit Health Tracker Band is your ultimate companion for tracking and improving your fitness journey. This sleek wearable device monitors your heart rate, steps, distance, calories burned, and sleep patterns, providing valuable insights into your overall health. With its built-in GPS, you can accurately track your outdoor activities and set personalized goals. The band also offers real-time notifications, customizable watch faces, and compatibility with popular fitness apps, making it the perfect fitness partner for an active lifestyle.",
+        "catagory": "Fitness Wearables",
+        "id": 11
+      },
+      {
+        "title": "PureGlow Himalayan Salt Lamp and Essential Oil Diffuser",
+        "body": "Create a soothing and relaxing ambiance with the PureGlow Himalayan Salt Lamp and Essential Oil Diffuser. This multifunctional device combines the gentle glow of a Himalayan salt lamp with the aromatic benefits of an essential oil diffuser. Simply add your favorite essential oil to the water tank, and the diffuser will disperse a fragrant mist while the salt lamp emits a warm, calming light. Whether you're looking to unwind after a long day or create a spa-like atmosphere, the PureGlow is the perfect addition to your personal care routine.",
+        "catagory": "Personal Care",
+        "id": 12
+      }
+    ]
+  }
