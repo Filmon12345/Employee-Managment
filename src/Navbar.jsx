@@ -47,6 +47,18 @@ setActived(false);
          >
          <Link className={`link btn  btn-${activee?'primary':''}`} to="/Employee">Employee</Link>
          </button >
+         <button style={btnstyle}
+     
+     onClick={()=>{
+      if(!actived){
+        setActived(true);
+        setActiveh(false);
+        setActivee(false);
+        setActivec(false)
+                    }
+      
+    }}
+    ><Link className={`link btn btn-${actived?'primary':''}`} to="/Dictionary">Dictionary</Link></button>
           <button style={btnstyle}
         
            onClick={()=>{
@@ -58,19 +70,7 @@ setActived(false);
                           }
             
           }}
-          ><Link className={`link btn btn-${activec?'primary':''}`} to="/Customer">Customer</Link></button>
-            <button style={btnstyle}
-        
-        onClick={()=>{
-         if(!actived){
-           setActived(true);
-           setActiveh(false);
-           setActivee(false);
-           setActivec(false)
-                       }
-         
-       }}
-       ><Link className={`link btn btn-${actived?'primary':''}`} to="/Dictionary">Dictionary</Link></button>
+          ><Link className={`link btn btn-${activec?'primary':''}`} to="/Definition">Definition</Link></button>
         </div>
           
        

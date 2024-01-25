@@ -1,10 +1,10 @@
 import Home from "./Home.jsx";
 import "./App.css";
 import { BrowserRouter as Router , Route , Switch } from "react-router-dom";
-import Customer from "./customer.jsx";
+import Definition from "./pages/Definition.jsx";
 import Navbar from "./Navbar.jsx";
 import Employee from "./Employee.jsx";
-import Dictionary from "./Dictionary.jsx";
+import Dictionary from "./pages/Dictionary.jsx";
 export default function App() {
  
   return (
@@ -18,11 +18,11 @@ export default function App() {
             <Route path="/Employee" >
             <Employee />
             </Route>
-            <Route path="/Customer">
-           <Customer/>
-            </Route>
             <Route path="/Dictionary">
            <Dictionary/>
+            </Route>
+            <Route path="/Definition">
+           <Definition/>
             </Route>
           </Switch>
         </Navbar>
