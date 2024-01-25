@@ -5,7 +5,7 @@ export default function Definition(){
 console.log("page is loaded")
     },[])
 
-    return <p style={{marginTop: "200px",
+    return <p style={{marginTop: "100px",
 backgroundColor:"red"
 }}>Here the definition</p>
 } 

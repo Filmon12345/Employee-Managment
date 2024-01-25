@@ -2,16 +2,19 @@
 import './Navbar.css'
   import { Link } from 'react-router-dom';
 
+  
   const Navbar=(PropTypes)=>{
-const [activeh,setActiveh] = useState(true)
-const [activee,setActivee] = useState(false)
-const [activec,setActivec] = useState(false)
-const [actived,setActived] = useState(false)
-const btnstyle = {
-  border:'0.5px solid blue',
-  borderRadius:'7px',
- padding:0,
-};
+    const [activeh,setActiveh] = useState(false)
+    const [activee,setActivee] = useState(false)
+    const [activec,setActivec] = useState(false)
+    const [actived,setActived] = useState(false)
+   
+    const btnstyle = {
+      border:'0.5px solid blue',
+      borderRadius:'7px',
+     padding:0,
+    }
+
     return(
         <>
         <div className="containers">
@@ -29,7 +32,7 @@ setActivee(false);
 setActivec(false);
 setActived(false);
             }
-            
+         
           }}
           ><Link  className={`link btn btn-${activeh?'primary':''}`} to="/Home">Home</Link></button>
 
@@ -42,7 +45,7 @@ setActived(false);
               setActivec(false);
               setActived(false)
                           }
-           
+                        
           }}
          >
          <Link className={`link btn  btn-${activee?'primary':''}`} to="/Employee">Employee</Link>
@@ -56,7 +59,7 @@ setActived(false);
         setActivee(false);
         setActivec(false)
                     }
-      
+                 
     }}
     ><Link className={`link btn btn-${actived?'primary':''}`} to="/Dictionary">Dictionary</Link></button>
           <button style={btnstyle}
@@ -68,7 +71,7 @@ setActived(false);
               setActivee(false);
               setActived(false)
                           }
-            
+                        
           }}
           ><Link className={`link btn btn-${activec?'primary':''}`} to="/Definition">Definition</Link></button>
         </div>
