@@ -1,7 +1,8 @@
 # React + Vite  Ongoing Project
-![Screenshot (58)](https://github.com/Filmon12345/Employee-Managment/assets/105017499/91f260f4-d48e-4260-93fb-38b5a1fe658b)
-![Screenshot (59)](https://github.com/Filmon12345/Employee-Managment/assets/105017499/c817d23d-3fb6-4419-a994-85b541ba92fb)
-![Screenshot (60)](https://github.com/Filmon12345/Employee-Managment/assets/105017499/5fe76555-9b9b-4ec4-9e11-039b672bee9f)
+![Screenshot (63)](https://github.com/Filmon12345/Employee-Managment/assets/105017499/fdb55b72-b0c9-42f8-9464-17094c42ae04)
+![Screenshot (62)](https://github.com/Filmon12345/Employee-Managment/assets/105017499/5c3a0242-787f-4682-abb7-53d64b762400)
+![Screenshot (61)](https://github.com/Filmon12345/Employee-Managment/assets/105017499/9c0b4bb8-6377-40ed-8b3e-dec4be63abd4)
+
 
 # Built with
 -> React + Vite
