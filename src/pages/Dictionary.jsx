@@ -1,7 +1,7 @@
 import { useState } from "react";
 
 function Dictionary() {
-  const [word, setWord] = useState("");
+  const [words, setWords] = useState("");
   const styles = {
     marginTop: "100px",
   };
@@ -12,10 +12,10 @@ function Dictionary() {
         style={styles}
         type="text"
         onChange={(e) => {
-          setWord(e.target.value);
+          setWords(e.target.value);
         }}
       />
-      <p>Lets Find a meaning for {word}</p>
+      <p>Lets Find a meaning for {words}</p>
     </>
   );
 }

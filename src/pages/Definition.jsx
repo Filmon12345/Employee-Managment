@@ -1,11 +1,35 @@
-import { useEffect } from "react"
-
+import {useState, useEffect } from "react"
+import { v4 as uuidv4 } from "uuid";
+import '../App.css'
 export default function Definition(){
-    useEffect(()=>{
-console.log("page is loaded")
-    },[])
+    const [word ,setWord] = useState();
 
-    return <p style={{marginTop: "100px",
-backgroundColor:"red"
-}}>Here the definition</p>
+    useEffect(()=>{
+fetch('https://api.dictionaryapi.dev/api/v2/entries/en/helicopter')
+.then((response)=>response.json())
+.then((data)=>{
+setWord(data[0].meanings);
+    console.log(data[0].meanings);
+    });
+},
+    []);
+
+    return (
+        <>
+        <h1>Here is the definition :</h1>
+           {word ?word.map((meaning)=>{
+return (
+
+    <p key={uuidv4()}>
+   <span style={{color:'purple',fontSize:'larger',fontWeight:"bold"}}> 
+   {meaning.partOfSpeech + ': '}</span>
+   {meaning.definitions[0].definition}
+    </p>
+);
+            })
+        :null
+        }
+        
+        </>
+    )
 } 
